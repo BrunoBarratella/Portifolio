@@ -1,0 +1,86 @@
+.conteudo__perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    width: 200px;
+    border-radius: 50px;
+    margin: 2em;
+}
+
+.sobre-mim__conteudo{
+    display: flex;
+    align-content: center;
+}
+
+.sobre__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 1em;
+    color: var(--branco);
+    font-weight: 700;
+    text-shadow: 10px 5px 10px var(--verde);
+}
+
+.sobre__titulo::before{
+    content: "⋅";
+    margin-right: .5em;
+    font-size: 27px;
+}
+
+.sobre__texto{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    padding: .5em 1em;
+    color: var(--branco);
+    font-weight: 300;
+    margin: .5em;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    color: var(--branco);
+    font-size: 22px;
+    text-shadow: 10px 5px 10px var(--verde);
+}
+
+.nome::after{
+    content: '|' ;
+    margin-left: 5px ;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+.fa-angles-down{
+    position: absolute;
+    right: 50%;
+    color: var(--branco);
+    animation: setaBaixo 1s ease-in-out infinite alternate;
+}
+
+@keyframes pisca{
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes setaBaixo{
+    0%{
+        top: 95.5%;
+    }
+    100%{
+        top: 96.5%;
+    }
+}
