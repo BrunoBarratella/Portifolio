@@ -8,12 +8,15 @@
 }
 
 .habilidades__titulo {
+	background: var(--fundo-cartao);
+	padding: 1em;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	color: var(--branco);
 	font-size: 18px;
-	margin: 4em 0 2em;
+	border-bottom: 1px solid var(--bordas);
+	border-top: 1px solid var(--bordas);
 }
 
 .card__container {
@@ -27,7 +30,6 @@
 	background-color: var(--fundo-cartao);
 	border-top: 1px solid var(--bordas);
 	border-left: 1px solid var(--bordas);
-	margin: 0.5em;
 }
 
 .card__container:hover .conteudo {
@@ -45,6 +47,30 @@
 	opacity: 0;
 	transition: 0.5s;
 	padding: 1em;
+	font-size: medium;
+}
+
+.conteudo p{
+	font-size: 13px;
+	font-weight: 300;
+	padding: 1em;
+}
+
+.conteudo h2{
+	padding: .5em;
+	text-align: center;
+	font-weight: 700;
+}
+
+.card__botao{
+	display: flex;
+	text-align: center;
+	font-size: small;
+	background: whitesmoke;
+	color: black;
+    text-decoration: none;
+    border-radius: 20px;
+	padding: 3px 5px;
 }
 
 .card {
@@ -54,7 +80,7 @@
 .logo__icone {
 	display: flex;
 	width: 85px;
-	transform: translateX(80px);
+	transform: translateX(68px);
 }
 
 .swiper {

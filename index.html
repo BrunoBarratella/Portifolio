@@ -118,7 +118,7 @@
 												registrar o histórico de edições de qualquer tipo de
 												arquivo. Criado por Linus Torvalds
 											</p>
-											<a href="https://pt.wikipedia.org/wiki/Git">
+											<a href="https://pt.wikipedia.org/wiki/Git" class="card__botao">
 												Clique Para saber mais
 											</a>
 										</div>
@@ -134,13 +134,12 @@
 											/>
 										</h3>
 										<div class="conteudo">
-											<h2>Git</h2>
+											<h2>Html</h2>
 											<p>
-												Ferramenta de versionamento. Pode ser usado para
-												registrar o histórico de edições de qualquer tipo de
-												arquivo. Criado por Linus Torvalds
+												O HTML5 é uma linguagem de marcação e é uma tecnologia chave da Internet, 
+												proposto por Opera Software. É a quinta versão da linguagem HTML.
 											</p>
-											<a href="https://pt.wikipedia.org/wiki/Git">
+											<a href="https://pt.wikipedia.org/wiki/HTML5" class="card__botao">
 												Clique Para saber mais
 											</a>
 										</div>
@@ -156,13 +155,13 @@
 											/>
 										</h3>
 										<div class="conteudo">
-											<h2>Git</h2>
+											<h2>Css</h2>
 											<p>
-												Ferramenta de versionamento. Pode ser usado para
-												registrar o histórico de edições de qualquer tipo de
-												arquivo. Criado por Linus Torvalds
+												CSS3 é a terceira mais nova versão das famosas Cascading Style
+												Sheets (ou simplesmente CSS), pela qual se define estilos para
+												um projeto web.
 											</p>
-											<a href="https://pt.wikipedia.org/wiki/Git">
+											<a href="https://pt.wikipedia.org/wiki/CSS3" class="card__botao">
 												Clique Para saber mais
 											</a>
 										</div>
@@ -178,13 +177,13 @@
 											/>
 										</h3>
 										<div class="conteudo">
-											<h2>Git</h2>
+											<h2>JavaScript</h2>
 											<p>
-												Ferramenta de versionamento. Pode ser usado para
-												registrar o histórico de edições de qualquer tipo de
-												arquivo. Criado por Linus Torvalds
+												O JavaScript é uma linguagem de programação interpretada
+												estruturada esta linguagem permite criar paginas web interativas
+												Criado por Brendan Eich.
 											</p>
-											<a href="https://pt.wikipedia.org/wiki/Git">
+											<a href="https://pt.wikipedia.org/wiki/JavaScript" class="card__botao">
 												Clique Para saber mais
 											</a>
 										</div>
@@ -200,19 +199,18 @@
 											/>
 										</h3>
 										<div class="conteudo">
-											<h2>Git</h2>
+											<h2>PhP</h2>
 											<p>
-												Ferramenta de versionamento. Pode ser usado para
-												registrar o histórico de edições de qualquer tipo de
-												arquivo. Criado por Linus Torvalds
+												É uma linguagem interpretada livre
+												para o desenvolvimento de aplicações presentes e 
+												atuantes no lado do servidor Criado por Rasmus Lerdof.
 											</p>
-											<a href="https://pt.wikipedia.org/wiki/Git">
+											<a href="https://pt.wikipedia.org/wiki/PHP"  class="card__botao">
 												Clique Para saber mais
 											</a>
 										</div>
 									</div>
 								</div>
-								...
 							</div>
 							<!-- If we need pagination -->
 							<div class="swiper-pagination"></div>
@@ -227,6 +225,57 @@
 					</div>
 				</div>
 			</section>
+			<section>
+				<div class="projetos">
+					<div class="projetos__titulo">Aqui estão alguns dos projetos ja feitos:</div>
+						<!-- Slider main container -->
+						<div class="swiperCard">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<div class="projetos__card">
+										<div class="projetos__card-conteudo">
+											<img src="./img/Projeto1.png" alt="Imagem do Projeto AluraBooks" class="projeto__img">
+											<div class="card-conteudo__texto">
+												<h2>AluraBooks</h2>
+												<p>Projeto de curso da Alura feito com Html, Css e javascript em Mobile-First</p>
+											</div>
+												<a href="https://github.com/BrunoBarratella/Projeto-Alurabooks" class="card-conteudo__link">Projeto no GitHub</a>
+												<a href="https://brunobarratella.github.io/Projeto-Alurabooks/" class="card-conteudo__link">Ver Projeto</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="projetos__card">
+										<div class="projetos__card-conteudo">
+											<img src="./img/Projeto2.png" alt="Imagem do Projeto AluraBooks" class="projeto__img">
+											<div class="card-conteudo__texto">
+												<h2>AluraMidi</h2>
+												<p>Projeto do curso de javascript da Alura</p>
+											</div>
+												<a href="https://github.com/BrunoBarratella/Aluramidi--projeto-curso-" class="card-conteudo__link">Projeto no GitHub</a>
+												<a href="https://brunobarratella.github.io/Aluramidi--projeto-curso-/" class="card-conteudo__link">Ver Projeto</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- If we need pagination -->
+							<div class="swiper-pagination"></div>
+
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<!-- If we need scrollbar -->
+							<div class="swiper-scrollbar"></div>
+						</div>
+
+					
+
+				</div>
+			</section>
+
 		</main>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 		<script>
@@ -237,6 +286,15 @@
 					type: "bullets",
 				},
 			});
+			const swiperCard = new Swiper(".swiperCard", {
+				slidesPerView: 1,
+				pagination: {
+					el: ".swiper-pagination",
+					type: "bullets",
+				},
+			});
+
+			
 		</script>
 		<script type="text/javascript" src="./js/vanilla-tilt.min.js"></script>
 		<script>

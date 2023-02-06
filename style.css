@@ -2,6 +2,7 @@
 @import url("./styles/header.css");
 @import url("./styles/SobreMim.css");
 @import url("./styles/habilidades.css");
+@import url("./styles/projetos.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
 
@@ -12,6 +13,7 @@
     --verde: #045319;
     --fundo-cartao: rgba(255, 255, 255, 0.1);
     --bordas: rgba(255, 255, 255, 0.5);
+    --preto: (#000000);
 }
 
 body{
