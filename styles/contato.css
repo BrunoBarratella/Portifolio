@@ -24,3 +24,9 @@
 .areaContato{
     padding: 1em;
 }
+
+.link__redes{
+    padding: 0 1em;
+    color: var(--branco);
+    font-size: 30px;
+}

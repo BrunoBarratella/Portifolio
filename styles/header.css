@@ -64,3 +64,41 @@
     width: 20px;
     margin-right: 5px;
 }
+
+@media screen and (min-width:1024px){
+    .cabecalho{
+        display: flex;
+    }
+
+    .container{
+        display: flex;
+    }
+    
+    .logo__cabecalho{
+        background-image: url("../img/LogoComNome.png");
+        width: 125px;
+        height: 125px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .menu__botao, .menu__hamburguer{
+        display: none;
+    }
+
+    .lista-menu{
+        display: flex;
+        position: relative;
+        background: none;
+        box-shadow: none;
+    }
+
+    .lista-menu__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+}
