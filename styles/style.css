@@ -14,7 +14,6 @@
     --verde: #045319;
     --fundo-cartao: rgba(255, 255, 255, 0.1);
     --bordas: rgba(255, 255, 255, 0.5);
-    --preto: (#000000);
 }
 
 body{
@@ -23,8 +22,8 @@ body{
 }
 
 .rodape{
-    width: 100%;
     color: var(--branco);
     padding: 1.5em;
     font-size: 13px;
+    overflow: hidden;
 }

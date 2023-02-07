@@ -66,12 +66,10 @@
 }
 
 @media screen and (min-width:1024px){
-    .cabecalho{
-        display: flex;
-    }
-
     .container{
         display: flex;
+        width: 100%;
+        justify-content: space-evenly;
     }
     
     .logo__cabecalho{
@@ -97,8 +95,18 @@
 
     .lista-menu__item{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         border: none;
+    }
+
+    .lista-menu__link{
+        align-items: center;
+        font-size: 23px;
+        font-weight: 500;
+        text-shadow: 5px 5px 5px black;
+    }
+    .lista-menu__imagem{
+        align-items: center;
+        width: 25px;
+        margin-right: 5px;
     }
 }
