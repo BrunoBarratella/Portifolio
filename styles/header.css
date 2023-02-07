@@ -69,7 +69,13 @@
     .container{
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
+        height: 127px;
+        overflow: hidden;
+        justify-content: space-around;
+    }
+
+    .cabecalho{
+        overflow: hidden;
     }
     
     .logo__cabecalho{
@@ -95,6 +101,9 @@
 
     .lista-menu__item{
         display: flex;
+        margin-bottom: 2em;
+        overflow: hidden;
+        padding: 0 5em;
         border: none;
     }
 

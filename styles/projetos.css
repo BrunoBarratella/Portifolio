@@ -24,7 +24,7 @@
 }
 
 .projetos__card{
-    width: 375px;
+    width: 370px;
     display: flex;
     margin: .5em;
 }
@@ -75,4 +75,5 @@
 .swiperCard{
     display: flex;
     width: 390px;
+
 }

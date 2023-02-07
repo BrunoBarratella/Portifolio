@@ -84,3 +84,45 @@
         top: 96.5%;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .conteudo__perfil{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+    .perfil{
+        width: 250px;
+        border-radius: 50px;
+        margin: 2em;
+    }
+
+    .Sobre-mim__conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        align-items:start;
+    }
+
+    .sobre__titulo{
+        display: flex;
+        margin: 1.5em 2em;
+        height: 20px;
+        align-items: start;
+    }
+
+    .sobre__texto{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin: 5em 0;
+        transform: translateX(-200px);
+        font-size: 18px;
+        color: var(--branco);
+        font-weight: 300;
+    }
+
+    .nome{
+        font-size: 30px;
+    }
+}
