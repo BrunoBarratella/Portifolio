@@ -1,8 +1,9 @@
-@import url("./styles/reset.css");
-@import url("./styles/header.css");
-@import url("./styles/SobreMim.css");
-@import url("./styles/habilidades.css");
-@import url("./styles/projetos.css");
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./SobreMim.css");
+@import url("./habilidades.css");
+@import url("./projetos.css");
+@import url("./contato.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
 
@@ -19,4 +20,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--cinza);
+}
+
+.rodape{
+    width: 100%;
+    color: var(--branco);
+    padding: 1.5em;
+    font-size: 13px;
 }
