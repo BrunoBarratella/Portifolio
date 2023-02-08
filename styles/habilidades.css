@@ -105,3 +105,16 @@
 	position: initial;
 	margin: 0.5em 0;
 }
+
+
+@media screen and (min-width:1280px){
+	.habilidades__titulo {
+		width: 100%;
+		padding: 2em;
+		font-size: 22px;
+	}	
+
+	.swiper {
+		justify-content: center;
+	}
+}

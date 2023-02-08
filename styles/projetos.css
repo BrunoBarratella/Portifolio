@@ -77,3 +77,22 @@
     width: 390px;
 
 }
+
+@media screen and (min-width:1280px){
+    .projetos__titulo{
+        width: 100%;
+        padding: 2em;
+		font-size: 22px;
+    }
+
+    .swiperCard {
+		justify-content: center;
+	}
+    .projetos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+}

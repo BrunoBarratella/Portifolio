@@ -30,3 +30,26 @@
     color: var(--branco);
     font-size: 30px;
 }
+
+@media screen and (min-width:1280px){
+    .areaTitulo{
+        font-size: 22px;
+    }
+
+    .areaLoc{
+        font-size: 19px;
+    }
+
+    .areaEmail{
+        font-size: 30px;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .areaContato{
+        font-size: 19px;
+    }
+
+    .link__redes{
+        font-size: 37px;
+    }
+}

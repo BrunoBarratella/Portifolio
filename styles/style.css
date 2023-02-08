@@ -27,3 +27,13 @@ body{
     font-size: 13px;
     overflow: hidden;
 }
+
+hr {
+    margin: 2em 0;
+}
+
+@media screen and (min-width:1280px){
+    .rodape{
+        font-size: 19px;
+    }
+}
