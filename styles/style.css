@@ -16,6 +16,13 @@
     --bordas: rgba(255, 255, 255, 0.5);
 }
 
+html{
+    scroll-behavior: smooth;
+    /*scroll-padding-top: 90px;   <--- Quando a barra de navegação é fixada é possivel usar esta função para dar 
+    um respiro para o conteudo e o navbar não sobrepo ou ficar muito grudado 
+    */
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--cinza);
